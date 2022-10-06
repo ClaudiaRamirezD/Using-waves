@@ -37,6 +37,13 @@
     sans-serif;
 }
 
+.btn-transparent:hover{
+     color: rgb(255, 82, 191, .6);
+     background-color: white;
+     border-color: rgb(255, 82, 191, .2);
+     box-shadow: none;
+}
+
 .hero-body{
     padding: 5rem 1.5rem 0 1.5rem;
     text-align: center;
@@ -56,10 +63,18 @@ h1{
     padding-bottom: 2.9rem;
 }
 
+button:hover{
+    background-color: rgb(255, 82, 191, .5);
+    border-color: transparent;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 14px 0px;
+    
+}
+
 .button-body{
     color: white;
     border-radius: 5rem ;
-    border-color: rgb(255, 82, 191, .5);
+    border-color: rgb(255, 82, 191, .1);
     background-color: rgb(255, 82, 191 );
     padding: .7rem 2.5rem;
     font-weight: 600;
@@ -130,7 +145,7 @@ figure * {
 
 
 
-h3, p{
+h3{
     font-family: 'Poppins',
     sans-serif;
 }
@@ -235,7 +250,7 @@ h3, p{
     background-image: url(/images/bg-footer-top-mobile.svg);
     background-repeat: no-repeat;
     z-index: 1;
-    height: 50px;
+    height: 44px;
     width: 100%;
     background-size:100% 50px;
 }
@@ -337,6 +352,222 @@ h4{
     color: hsl(207, 100%, 98%);
   
 }
+
+.social i:hover {
+    color: rgb(4, 194, 252);
+    cursor: pointer;
+}
+
+
+@media(min-width:600px){
+   .hero-img {
+       padding: 6.8rem 2.5rem;
+   }
+
+   .hero-header img {
+       height: 2.5rem;
+   }
+
+   .hero-header {
+       padding: 4.5rem;
+   }
+
+   .btn-transparent {
+    font-size: 1rem;
+    padding: 0.3rem 1.8rem;
+    border-radius: 5rem;
+   }
+
+   h1{
+    font-size: 3rem;
+    font-weight: 700;
+   }
+
+   .hero-body {
+       padding: 10.2rem 1.5rem 0 1.5rem;
+   }
+   
+   .p-hero{
+    font-size: 3rem;
+   }
+
+   .hero-body p {
+       font-size: 1.3rem;
+       width: 30em;
+       margin: auto;
+       padding-bottom: 3.3rem;
+   }
+
+   .p-hero{
+    text-align: center;
+   }
+
+   .button-body {
+       width: 20em;
+       padding: 1.5rem;
+       font-size: 1.3rem;
+       font-weight: 700;
+       
+   }
+
+   .mockup{
+    margin: auto;
+   }
+
+   .data{
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1.2rem;
+    padding-bottom: 9rem;
+    
+   }
+
+   .data img {
+       width: 2.7rem;
+   }
+
+   .data-title {
+       font-size: 6rem;
+   }
+
+   .data-title-small {
+       font-size: 5.8rem;
+   }
+
+   .data-text{
+    font-size: 1.5rem;
+   }
+
+   .onda1{
+    background-image: url(/images/bg-section-top-desktop-1.svg);
+   }
+
+   .card{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 4rem 8rem;
+   }
+
+   .grow, .users{
+    flex-direction: row-reverse;
+    background-color:hsl(207, 100%, 98%);
+    
+   }
+
+   .figure-image {
+       width: 45%;
+       padding: 0%;
+       
+   }
+
+   .card-text {
+       text-align: start;
+   }
+
+   .cards-title {
+       font-size: 2.3rem;
+   }
+
+   .cards-text {
+    padding: 0;
+    font-size: 1rem;
+    width: 80%;
+   }
+
+   .onda2{
+    height: 190px;
+    background-size: 100% 191px;
+    padding-bottom: 16rem;
+    background: url(/images/bg-section-bottom-desktop-1.svg) no-repeat;
+   }
+
+   .flowing {
+       gap: 8rem;
+       padding-bottom: 6rem;
+   }
+
+   .onda3{
+    background-image: url(/images/bg-section-top-desktop-2.svg);
+    
+   }
+
+   .users .demo{
+    padding: 0;
+   }
+
+   .onda4{
+    background-image: url(/images/bg-section-bottom-desktop-2.svg);
+   }
+
+   .community h3 {
+       font-size: 2.7rem; 
+       padding-bottom: 2.5rem;
+   }
+
+   .community{
+    padding-top: 11rem;
+   }
+
+  .footer-wave {
+      height: 190px;
+      background-image: url(/images/bg-footer-top-desktop.svg);
+      background-repeat: no-repeat;
+      background-size: 100% 191px;
+  }
+
+  footer{
+    flex-direction: row;
+    padding: 6rem 4.5rem;
+    gap: 20%;
+  }
+
+  .padding {
+      width: 69%;
+      padding-top: 3rem;
+  }
+
+  .footer-info {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.2rem;
+  }
+
+  .phone-icon,
+  .mail-icon {
+      height: 1.5rem;
+  }
+
+  .social i {
+      font-size: 3rem;
+  }
+
+  h4 {
+      font-size: 1.7rem;
+      padding-bottom: 2.5rem;
+  }
+
+  input[type=text]{
+      padding: 1rem;
+  }
+
+  .submit{
+    gap: 10%;
+    display: flex;
+  }
+
+  .subscribe{
+    margin-top: 0;
+  }
+
+  .footer-text{
+    width: 70%;
+  }
+
+  
+
+}
+
+
 
 
 
